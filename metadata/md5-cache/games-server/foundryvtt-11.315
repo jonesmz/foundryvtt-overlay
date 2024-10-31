@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install nofetch unpack
+DESCRIPTION=Foundry Virtual Table Top Server
+EAPI=8
+HOMEPAGE=https://foundryvtt.com
+INHERIT=systemd
+KEYWORDS=~amd64
+RDEPEND=acct-user/foundryvtt acct-group/foundryvtt net-libs/nodejs
+RESTRICT=mirror strip fetch
+SLOT=0
+SRC_URI=FoundryVTT-11.315.zip
+_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0
+_md5_=e013e4c2d73a20d9da65c8d964fefe02

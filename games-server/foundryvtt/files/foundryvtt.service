@@ -1,0 +1,13 @@
+[Unit]
+Description=Foundry Virtual TableTop Server
+After=network.target
+
+[Service]
+Type=simple
+User=foundryvtt
+ExecStart=/usr/bin/node /opt/foundryvtt/resources/app/main.js --dataPath=/var/db/foundryvtt
+Restart=Always
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
